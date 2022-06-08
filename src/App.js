@@ -7,7 +7,7 @@ import {
   Header,
 } from "./components/Containers";
 import { Brand, Navbar } from "./components/Sections/index";
-import { Cta } from "./components/Sections/CTA/Cta";
+import Cta from "./components/Sections/CTA/Cta";
 import "./App.css";
 
 const App = () => (
