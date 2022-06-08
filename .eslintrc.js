@@ -7,26 +7,29 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
   ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 2018,
+    ecmaVersion: 11,
     sourceType: 'module',
+  },
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
   },
   parser: 'babel-eslint',
   plugins: [
     'react',
+    "prefer-arrow",
   ],
   rules: {
     'import/extensions': 0,
     'react/prop-types': 0,
     'linebreak-style': 0,
     'react/state-in-constructor': 0,
+    'react/react-in-jsx-scope': 0,
+    'react/jsx-uses-react': 0,
     'import/prefer-default-export': 0,
     'max-len': [
       2,
@@ -81,19 +84,4 @@ module.exports = {
       },
     ],
   },
-  'jsx-runtime': {
-    plugins: [
-      'react'
-    ],
-    parserOptions: {
-      ecmaFeatures: {
-        jsx: true
-      },
-      jsxPragma: null // for @typescript/eslint-parser
-    },
-    rules: {
-      'react/react-in-jsx-scope': 0,
-      'react/jsx-uses-react': 0
-    }
-  }
 };
