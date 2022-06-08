@@ -37,12 +37,12 @@ module.exports = {
     "prefer-arrow/prefer-arrow-functions": [
       "error",
       {
-        "disallowPrototype": true,
-        "singleReturnOnly": false,
-        "classPropertiesAllowed": false,
-      }
+        disallowPrototype: true,
+        singleReturnOnly: false,
+        classPropertiesAllowed: false,
+      },
     ],
-    "no-alert":"off",
+    "no-alert": "off",
     "no-unneeded-ternary": "error",
     "func-style": [
       "error",
@@ -53,17 +53,17 @@ module.exports = {
     "comma-spacing": [
       "error",
       {
-        "before": false,
-        "after": true,
-      }
+        before: false,
+        after: true,
+      },
     ],
     "no-multiple-empty-lines": [
       "error",
       {
-        "max": 1,
-        "maxEOF": 0,
-        "maxBOF": 0,
-      }
+        max: 1,
+        maxEOF: 0,
+        maxBOF: 0,
+      },
     ],
     "computed-property-spacing": [
       "error",
@@ -80,8 +80,8 @@ module.exports = {
     "no-trailing-spaces": [
       2,
       {
-        "skipBlankLines": true,
-      }
+        skipBlankLines: true,
+      },
     ],
     "eol-last": [
       "error",
@@ -91,21 +91,16 @@ module.exports = {
       "error",
       "always",
     ],
-    "react/prop-types": "off",
     "space-before-blocks": 2,
-    "indent": [
+    indent: [
       "error",
-      2
+      2,
     ],
-    "linebreak-style": [
-      "error",
-      "unix",
-    ],
-    "quotes": [
+    quotes: [
       "error",
       "double",
     ],
-    "semi": [
+    semi: [
       "error",
       "always",
     ],
@@ -118,9 +113,9 @@ module.exports = {
     "keyword-spacing": [
       "error",
       {
-        "after": true,
-        "before": true,
-      }
+        after: true,
+        before: true,
+      },
     ],
     "rest-spread-spacing": "error",
     "no-useless-rename": "error",
@@ -137,7 +132,7 @@ module.exports = {
     "no-multi-spaces": "error",
     "space-infix-ops": "error",
     "spaced-comment": "error",
-    "curly": [
+    curly: [
       "error",
       "multi-line",
     ],
@@ -149,10 +144,7 @@ module.exports = {
     "react/jsx-filename-extension": [
       0,
     ],
-    "import/prefer-default-export": "off",
-    "import/extensions": "off",
     "no-shadow": "off",
-    "react/react-in-jsx-scope": "off",
     "object-curly-newline": 0,
     "jsx-a11y/label-has-associated-control": 0,
     "jsx-a11y/click-events-have-key-events": 0,
