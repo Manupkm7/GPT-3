@@ -1,6 +1,6 @@
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from "./components/Containers";
 import { Brand, Navbar } from "./components/Sections/index";
-import CTA from "./components/Sections/Cta/Cta";
+import { Cta } from "./components/Sections/Cta/Cta";
 import "./App.css";
 
 const App = () => (
@@ -13,7 +13,7 @@ const App = () => (
     <WhatGPT3 />
     <Features />
     <Possibility />
-    <CTA />
+    <Cta />
     <Blog />
     <Footer />
   </div>
