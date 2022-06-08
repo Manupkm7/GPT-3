@@ -39,14 +39,14 @@ module.exports = {
       {
         "disallowPrototype": true,
         "singleReturnOnly": false,
-        "classPropertiesAllowed": false
+        "classPropertiesAllowed": false,
       }
     ],
     "no-alert":"off",
     "no-unneeded-ternary": "error",
     "func-style": [
       "error",
-      "expression"
+      "expression",
     ],
     "no-console": "error",
     "no-duplicate-imports": "error",
@@ -54,7 +54,7 @@ module.exports = {
       "error",
       {
         "before": false,
-        "after": true
+        "after": true,
       }
     ],
     "no-multiple-empty-lines": [
@@ -62,34 +62,34 @@ module.exports = {
       {
         "max": 1,
         "maxEOF": 0,
-        "maxBOF": 0
+        "maxBOF": 0,
       }
     ],
     "computed-property-spacing": [
       "error",
-      "never"
+      "never",
     ],
     "array-bracket-spacing": [
       "error",
-      "never"
+      "never",
     ],
     "object-curly-spacing": [
       "error",
-      "always"
+      "always",
     ],
     "no-trailing-spaces": [
       2,
       {
-        "skipBlankLines": true
+        "skipBlankLines": true,
       }
     ],
     "eol-last": [
       "error",
-      "always"
+      "always",
     ],
     "lines-between-class-members": [
       "error",
-      "always"
+      "always",
     ],
     "react/prop-types": "off",
     "space-before-blocks": 2,
@@ -99,15 +99,15 @@ module.exports = {
     ],
     "linebreak-style": [
       "error",
-      "unix"
+      "unix",
     ],
     "quotes": [
       "error",
-      "double"
+      "double",
     ],
     "semi": [
       "error",
-      "always"
+      "always",
     ],
     "arrow-parens": "error",
     "arrow-spacing": "error",
@@ -119,7 +119,7 @@ module.exports = {
       "error",
       {
         "after": true,
-        "before": true
+        "before": true,
       }
     ],
     "rest-spread-spacing": "error",
@@ -127,15 +127,11 @@ module.exports = {
     "no-irregular-whitespace": "error",
     "comma-style": [
       "error",
-      "last"
+      "last",
     ],
     "comma-dangle": [
       "error",
-      "always-multiline"
-    ],
-    "quote-props": [
-      "error",
-      "as-needed"
+      "always-multiline",
     ],
     "no-return-assign": "off",
     "no-multi-spaces": "error",
@@ -143,15 +139,15 @@ module.exports = {
     "spaced-comment": "error",
     "curly": [
       "error",
-      "multi-line"
+      "multi-line",
     ],
     "no-underscore-dangle": 0,
     "nonblock-statement-body-position": [
       "error",
-      "beside"
+      "beside",
     ],
     "react/jsx-filename-extension": [
-      0
+      0,
     ],
     "import/prefer-default-export": "off",
     "import/extensions": "off",
@@ -164,6 +160,6 @@ module.exports = {
     "react/jsx-props-no-spreading": 0,
     "no-nested-ternary": 0,
     "react/no-array-index-key": 0,
-    "consistent-return": 0
+    "consistent-return": 0,
   },
 };
