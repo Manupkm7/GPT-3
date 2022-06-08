@@ -1,7 +1,7 @@
 import "./cta.css";
 
-const CTA = () => (
+const Cta = () => (
   <div>CTA</div>
 );
 
-export default CTA;
+export default Cta;
