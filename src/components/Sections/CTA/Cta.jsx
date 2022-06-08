@@ -1,5 +1,6 @@
 import "./cta.css";
 
-export const Cta = () => (
+const Cta = () => (
   <div>CTA</div>
 );
+export default Cta;
