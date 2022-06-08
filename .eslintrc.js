@@ -3,6 +3,13 @@ module.exports = {
     browser: true,
     es6: true,
   },
+  settings: {
+    "import/resolver": {
+      node: {
+        paths: ["src"],
+      },
+    },
+  },
   extends: [
     "plugin:react/recommended",
     "airbnb",
