@@ -1,0 +1,56 @@
+.contenedor {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
+.nav {
+  display: flex;
+}
+
+.name {
+  margin-left: 20px;
+  margin-right: 60px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.home {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.what {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.open {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.case {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+}
+
+.signIn {
+  margin-right: 1em;
+}
+
+.signUp {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #FF4820;
+}
+
+
