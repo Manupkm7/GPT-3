@@ -11,7 +11,8 @@
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "webpack": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -49,6 +50,7 @@
     "eslint-config-next": "11.0.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-mui-unused-classes": "^1.0.3",
+    "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-prefer-arrow": "^1.2.3"
   }
 }
