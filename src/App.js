@@ -1,5 +1,5 @@
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from "./components/Containers";
-import { CTA, Brand, Navbar } from "./components/Sections";
+import { CTA, Brand, Navbar } from "./components/Sections/index";
 import "./App.css";
 
 const App = () => (
